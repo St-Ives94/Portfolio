@@ -17,9 +17,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("../../src/images/alexander-andrews.jpg");
   background-position: center;
-  background-size: cover; */
+  background-size: contain;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -30,6 +30,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    // text-shadow: 1px 0.5px 0.5px #cedcb4;
 
     @include respond(tab-land) {
       font-size: 4rem;
