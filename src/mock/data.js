@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'astronaut-sample.jpg',
     title: 'Astronomers Anonymous',
     info: 'Welcome to the club of space lovers! I created a website with HTML, CSS, JavaScript, and ReactJS components.',
-    info2: 'Features include: Google Maps API for searching nearby meets, a login page with the option to sign up, and more! ',
+    info2: 'Features include: Google Maps API for searching nearby meets, a login page with the option to sign up, and more! COMING SOON',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
