@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'download20210704125238.png',
-  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. I  ',
+  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design.',
   paragraphTwo: 'I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
-  paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant, star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
+  paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
   resume: 'https://drive.google.com/file/d/1e03dlO316Z__sgadN1S04L62hFUvqsjL/view?usp=sharing', // if no resume, the button will not show up
 };
 
