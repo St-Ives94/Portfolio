@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'astronaut-sample.jpg',
     title: 'Astronomers Anonymous',
     info: 'Welcome to the club of space lovers! I created a website with HTML, CSS, JavaScript, and ReactJS components.',
-    info2: 'Features include: Google Maps API for searching nearby meets, a login page with the option to sign up, and more! COMING SOON',
+    info2: 'Included Google Maps API to show nearby observatories and login pop-up option. ',
     url: '',
     // will add a live soon
     repo: 'https://github.com/St-Ives94/Astronomers_Anonymous', // if no repo, the button will not show up
