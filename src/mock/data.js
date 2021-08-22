@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'download20210704125238.png',
-  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design.',
+  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. ',
   paragraphTwo: 'I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
   paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
   resume: 'https://drive.google.com/file/d/1e03dlO316Z__sgadN1S04L62hFUvqsjL/view?usp=sharing', // if no resume, the button will not show up
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'cafe-chic.png',
     title: 'Café Chic',
-    info: 'Inspired by the love of pastries and the cafe aesthetic. I created a one-page website for a fake restaurant using only HTML and CSS with the intention of making it responsive to sizing aspects. More will be added!  ',
+    info: 'Inspired by the love of pastries and the cafe aesthetic. I created a one-page website for a fake restaurant using only HTML and CSS with the intention of making it responsive to sizing aspects.',//More will be added!
     info2: '',
     url: 'https://cafe-chic.herokuapp.com/',
     repo: 'https://github.com/St-Ives94/Cafe_Chic', // if no repo, the button will not show up
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'astronaut-sample.jpg',
     title: 'Astronomers Anonymous',
     info: 'Welcome to the club of space lovers! I created a website with HTML, CSS, JavaScript, and ReactJS components.',
-    info2: 'Included Google Maps API to show nearby observatories and login pop-up option. ',
+    info2: 'Included Google Maps API to show nearby observatories . ',/* and login pop-up option*/
     url: '',
     // will add a live soon
     repo: 'https://github.com/St-Ives94/Astronomers_Anonymous', // if no repo, the button will not show up
