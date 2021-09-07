@@ -48,9 +48,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'astronaut-sample.jpg',
     title: 'Astronomers Anonymous',
-    info: 'Welcome to the club of space lovers! I created a website with HTML, CSS, JavaScript, and ReactJS components.',
+    info: 'Welcome to the club of space lovers! I created a website with JavaScript, and ReactJS components.',
     info2: 'Included Google Maps API to show nearby observatories . ',/* and login pop-up option*/
-    url: '',
+    url: 'https://aa-space.netlify.app/',
     // will add a live soon
     repo: 'https://github.com/St-Ives94/Astronomers_Anonymous', // if no repo, the button will not show up
   },
