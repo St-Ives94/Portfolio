@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. ',
   paragraphTwo: 'I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
   paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
-  resume: 'https://drive.google.com/file/d/1e03dlO316Z__sgadN1S04L62hFUvqsjL/view?usp=sharing', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'astronaut-sample.jpg',
+    img: 'AA_Screenshot.png',
     title: 'Astronomers Anonymous',
     info: 'Welcome to the club of space lovers! I created a website with HTML, CSS, JavaScript, and ReactJS components.',
     info2: 'Included Google Maps API to show nearby observatories . ',/* and login pop-up option*/
@@ -79,7 +79,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/ivory-smith-865abb143/',
+      url: 'https://www.linkedin.com/in/ivory-s/',
     },
     {
       id: nanoid(),
