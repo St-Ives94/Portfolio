@@ -17,7 +17,7 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  background: url("../../src/images/guillaume-le-louarn.jpg");
+  background: url("../../src/images/larm-rmah.jpg");
   background-position: center;
   background-size: cover;
   // background-blend-mode: darken;
@@ -32,6 +32,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    color: $white-color;
     // text-shadow: 1px 0.5px 0.5px hsla(81, 36%, 78%, 0.468);
 
     @include respond(tab-land) {

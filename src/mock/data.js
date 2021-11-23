@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'download20210704125238.png',
+  img: 'profilephoto.png',
   paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. ',
   paragraphTwo: 'I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
   paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
@@ -30,26 +30,26 @@ export const projectsData = [
     id: nanoid(),
     img: 'cafe-chic.png',
     title: 'Café Chic',
-    info: 'Inspired by the love of pastries and the cafe aesthetic. I created a one-page website for a fake restaurant using only HTML and CSS with the intention of making it responsive to sizing aspects.',//More will be added!
+    info: 'Inspired by the love of pastries and the cafe aesthetic. I created a one-page website for a fake restaurant using only HTML and CSS with the intention of making it responsive to multiple devices.',//More will be added!
     info2: '',
     url: 'https://cafe-chic.herokuapp.com/',
     repo: 'https://github.com/St-Ives94/Cafe_Chic', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'tarot-landing.png',
-    title: 'Tarot 2 Go',
-    info: 'This is a landing page for a lifestyle app that was implemented in HTML and CSS. ',
-    info2: '',
+    img: 'easybank.png',
+    title: 'Easy Bank',
+    info: 'Landing page that creates a responsive website where users can hover over active links and react.Utilized different effects using CSS selectors.',
+    info2: 'Creatively usage of Links to improve viewing and site interaction for users.',
     url: '',
-    repo: 'https://github.com/St-Ives94/tarot-2-go-landing', // if no repo, the button will not show up
+    repo: 'https://github.com/St-Ives94/easyBank_challenge', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'AA_Screenshot.png',
     title: 'Astronomers Anonymous',
-    info: 'Welcome to the club of space lovers! I created a website with JavaScript, and ReactJS components.',
-    info2: 'Included Google Maps API to show nearby observatories . ',/* and login pop-up option*/
+    info: 'Design and successfully  implemented Google APIs to present nearby observatories. Successfully implement React Hooks and React Router to smoothly switch between pages.',
+    info2: 'Research and applied responsive web page design for multiple devices and user-friendly experience.',/* and login pop-up option*/
     url: 'https://aa-space.netlify.app/',
     // will add a live soon
     repo: 'https://github.com/St-Ives94/Astronomers_Anonymous', // if no repo, the button will not show up
