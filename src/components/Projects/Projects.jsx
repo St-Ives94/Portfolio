@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="My Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -62,7 +62,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn text-color-project"
                           href={repo}
                         >
                           Source Code

@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Hello! My name is ',
   name: 'Ivory Smith',
-  subtitle: 'I am a frontend developer.',
+  subtitle: 'I am a Frontend Developer.',
   cta: 'Let\'s check it out',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profilephoto.png',
-  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. ',
-  paragraphTwo: 'I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
-  paragraphThree: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games. ',
-  resume: '', // if no resume, the button will not show up
+  paragraphOne: 'I am a self-taught developer with 8 years of Graphic Design. I am an enthusiastic and patient developer with exceptional flexibility and resourcefulness.',
+  paragraphTwo: 'My favorite hobbies include learning French (je suis un étudiant constant), star-gazing, taking care of my plant babies, creating sweet and savory treats, and playing video games.',
+  paragraphThree: 'I want to apply my previous experience to obtain a role as a software engineer in a diverse inclusive, fast-paced organization where exceptional technical skills are recognized.',
+  resume: 'Ivory-Smith.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
