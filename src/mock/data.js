@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Easy Bank',
     info: 'Landing page that creates a responsive website where users can hover over active links and react.Utilized different effects using CSS selectors.',
     info2: 'Creatively usage of Links to improve viewing and site interaction for users.',
-    url: '',
+    url: 'https://easybankportfolio.netlify.app/',
     repo: 'https://github.com/St-Ives94/easyBank_challenge', // if no repo, the button will not show up
   },
   {
