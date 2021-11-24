@@ -40,14 +40,14 @@ a:hover {
 
 .text-color-main {
   // color: $warm-brown;
-  background-image: linear-gradient(180deg, #FFD396 27%, #694C2F 76%);
+  background-image: linear-gradient(180deg, $light-brown 27%, $warm-brown 76%);
       -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  // Responsive text purple style
+
   @include respond(phone) {
-    background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    background-image: linear-gradient(180deg, $light-brown 27%, $warm-brown 76%);
+    -webkit-text-fill-color: transparent;
   }
 
   &:hover {
@@ -57,15 +57,17 @@ a:hover {
 
 .text-color-project {
   // color: $warm-brown;
-  background-image: linear-gradient(180deg,$primary-color 27%, $primary-color);
+  background-image: none; /*linear-gradient(180deg,$primary-color 27%, $primary-color)*/
       -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: $warm-brown;
 
   // Responsive text purple style
-  @include respond(phone) {
-    background-image: none;
-    -webkit-text-fill-color: $secondary-color;
-  }
+  // @include respond(phone) {
+  //   background-image: none;
+  //   -webkit-text-fill-color: $warm-brown;
+  //       // text-shadow: 1px 0.5px 0.5px rgba(205, 219, 179, 0.468);
+
+  // }
 
   &:hover {
     transform: translateX(2px);
