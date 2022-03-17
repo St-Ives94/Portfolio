@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello! My name is ',
   name: 'Ivory Smith',
-  subtitle: 'I am a Frontend Developer.',
+  subtitle: 'I am a Front End Developer.',
   cta: 'Let\'s check it out',
 };
 
@@ -48,8 +48,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'AA_Screenshot.png',
     title: 'Astronomers Anonymous',
-    info: 'Design and successfully  implemented Google APIs to present nearby observatories. Successfully implement React Hooks and React Router to smoothly switch between pages.',
-    info2: 'Research and applied responsive web page design for multiple devices and user-friendly experience.',/* and login pop-up option*/
+    info: 'Implemented Google APIs to present nearby observatories. Successfully implemented React Hooks and React Router to smoothly switch between pages.',
+    info2: 'Researched and applied responsive web page design for multiple devices and user-friendly experience.',/* and login pop-up option*/
     url: 'https://aa-space.netlify.app/',
     // will add a live soon
     repo: 'https://github.com/St-Ives94/Astronomers_Anonymous', // if no repo, the button will not show up
